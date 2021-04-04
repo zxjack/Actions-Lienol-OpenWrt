@@ -18,3 +18,6 @@ rm -rf package/feeds/packages/smartdns
 
 # 拉取smartdns核心
 svn co https://github.com/coolsnowwolf/packages/trunk/net/smartdns package/feeds/packages/smartdns
+
+# 拉取passwall源
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
