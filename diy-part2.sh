@@ -20,4 +20,4 @@ rm -rf package/feeds/packages/smartdns
 svn co https://github.com/coolsnowwolf/packages/trunk/net/smartdns package/feeds/packages/smartdns
 
 # 拉取passwall源
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
