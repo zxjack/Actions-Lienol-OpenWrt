@@ -18,3 +18,9 @@ rm -rf package/feeds/packages/smartdns
 
 # 拉取smartdns核心
 svn co https://github.com/coolsnowwolf/packages/trunk/net/smartdns package/feeds/packages/smartdns
+
+# 删除自带xray-core核心
+rm -rf package/feeds/packages/xray-core
+
+# 拉取passwall源码
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
