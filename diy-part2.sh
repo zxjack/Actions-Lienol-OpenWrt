@@ -26,5 +26,5 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 #git clone https://github.com/lxhao61/openwrt-passwall.git package/passwall
 
-# 删除自带xray-core核心
+# 删除passwall中xray-core核心
 rm -rf package/passwall/xray-core
