@@ -20,10 +20,10 @@
 #sed -i 's/^\(.*diy1\)/#&/' feeds.conf.default
 
 # 添加xiaorouji大passwall源
-#sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
+#sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;19.07' feeds.conf.default
 
 # 注释掉lienol大packages源
-sed -i 's/^\(.*packages\)/#&/' feeds.conf.default
+#sed -i 's/^\(.*packages\)/#&/' feeds.conf.default
 
 # 添加lxhao61的packages源
-sed -i '$a src-git packages https://github.com/lxhao61/openwrt-packages.git;19.07' feeds.conf.default
+#sed -i '$a src-git packages https://github.com/lxhao61/openwrt-packages.git;19.07' feeds.conf.default
