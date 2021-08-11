@@ -11,8 +11,8 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
-#sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
 
 # 删除原smartdns核心
 #rm -rf package/feeds/packages/smartdns
