@@ -26,4 +26,4 @@
 sed -i 's/^\(.*luci\)/#&/' feeds.conf.default
 
 # 添加lienol大另外lluci源
-sed -i '$a src-git luci https://github.com/Lienol/openwrt-luci.git;18.06' feeds.conf.default
+sed -i '$a src-git luci https://github.com/Lienol/openwrt-luci.git;19.07' feeds.conf.default
