@@ -23,7 +23,7 @@
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;19.07' feeds.conf.default
 
 # 注释掉lienol大默认luci源
-sed -i 's/^\(.*luci\)/#&/' feeds.conf.default
+#sed -i 's/^\(.*luci\)/#&/' feeds.conf.default
 
 # 添加lienol大另外lluci源
-sed -i '$a src-git luci https://github.com/Lienol/openwrt-luci.git;19.07' feeds.conf.default
+#sed -i '$a src-git luci https://github.com/Lienol/openwrt-luci.git;19.07' feeds.conf.default
