@@ -28,9 +28,3 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 
 # 删除passwall中xray-core核心
 #rm -rf package/passwall/xray-core
-
-# 删除自带xray-core核心
-rm -rf package/feeds/packages/lean/luci-app-turboacc
-
-# 拉取luci-app-turboacc
-svn co https://github.com/Lienol/openwrt/trunk/package/lean/luci-app-turboacc package/lean/luci-app-turboacc
