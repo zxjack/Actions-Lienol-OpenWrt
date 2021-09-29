@@ -28,3 +28,6 @@ git clone https://github.com/lxhao61/openwrt-passwall.git package/passwall
 
 # 删除passwall中xray-core核心
 #rm -rf package/passwall/xray-core
+
+# 拉取ipsec-vpnd LuCI
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ipsec-vpnd package/lean/luci-app-ipsec-vpnd
